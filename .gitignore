@@ -3,7 +3,7 @@
 #################
 
 *.pydevproject
-.project
+#.project
 .metadata
 bin/
 tmp/
@@ -11,6 +11,9 @@ tmp/
 *.bak
 *.swp
 *~.nib
+*.o
+*.d
+*.exe
 local.properties
 .classpath
 .settings/
@@ -23,7 +26,7 @@ local.properties
 *.launch
 
 # CDT-specific
-.cproject
+#.cproject
 
 # PDT-specific
 .buildpath
@@ -43,7 +46,7 @@ local.properties
 
 # Build results
 
-[Dd]ebug/
+#[Dd]ebug/
 [Rr]elease/
 x64/
 build/
